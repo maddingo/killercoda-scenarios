@@ -1,7 +1,8 @@
-This is your first step.
+We want to install Energy Components 12.1.0. This requires OpenJDK 11.
 
-## Task
+## Install SDKman
+`curl -s "https://get.sdkman.io" | bash` {{execute}}
+`source "$HOME/.sdkman/bin/sdkman-init.sh"`{{execute}}
 
-This is an _example_ of creating a scenario and running a **command**
-
-`echo 'Hello World'`{{execute}}
+## Install OpenJDK 11
+`sdk install java 11.0.1-open`{{execute}}
