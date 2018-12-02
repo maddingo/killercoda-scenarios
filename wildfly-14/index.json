@@ -11,7 +11,8 @@
     },
     "steps": [{
       "title": "Step 1 - Run Command",
-      "text": "setup.md"
+      "text": "setup.md",
+      "code": "setupTerminal.sh"
     }],
     "finish": {
       "text": "finish.md"
