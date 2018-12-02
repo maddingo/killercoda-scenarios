@@ -1,7 +1,7 @@
 We want to install Energy Components 12.1.0. This requires OpenJDK 11.
 
 ## Install SDKman
-`curl -s "https://get.sdkman.io" | bash` {{execute}}
+`curl -s "https://get.sdkman.io" | bash`{{execute}}
 `source "$HOME/.sdkman/bin/sdkman-init.sh"`{{execute}}
 
 ## Install OpenJDK 11
