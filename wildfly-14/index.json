@@ -1,0 +1,26 @@
+{
+  "title": "Wildfly Administration",
+  "description": "Learn about administrating Wildfly 14",
+  "difficulty": "beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [{
+      "title": "Step 1 - Run Command",
+      "text": "step1.md"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nRun `a command`\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "jboss/wildfly:14.0.1.Final"
+  }
+}
