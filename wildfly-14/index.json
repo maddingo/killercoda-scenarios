@@ -6,7 +6,7 @@
   "details": {
     "steps": [{
       "title": "Step 1 - Run Command",
-      "text": "step1.md"
+      "text": "setup.md"
     }],
     "intro": {
       "text": "intro.md",
@@ -21,6 +21,6 @@
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nRun `a command`\u001b[m\r\n"
   },
   "backend": {
-    "imageid": "jboss/wildfly:14.0.1.Final"
+    "imageid": "ubuntu"
   }
 }
