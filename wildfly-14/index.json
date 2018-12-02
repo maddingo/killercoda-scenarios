@@ -4,14 +4,15 @@
   "difficulty": "beginner",
   "time": "10 minutes",
   "details": {
+    "intro": {
+      "text": "intro.md",
+      "credits": "",
+      "courseData": "setupEnv.sh"
+    },
     "steps": [{
       "title": "Step 1 - Run Command",
       "text": "setup.md"
     }],
-    "intro": {
-      "text": "intro.md",
-      "credits": ""
-    },
     "finish": {
       "text": "finish.md"
     }
