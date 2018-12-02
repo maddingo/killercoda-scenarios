@@ -1,15 +1,12 @@
 We want to install Energy Components 12.1.0. This requires OpenJDK 11.
 
-## Install SDKman
-Install zip tool
+## Check the Java version
+Wait until you get a prompt.
 
-`sudo apt -qq install -y zip`{{execute}}
+`java -version`{{execute}}
 
-Install sdkman
+## Copy the distribution to the remote machine.
 
-`curl -s "https://get.sdkman.io" | bash && source "$HOME/.sdkman/bin/sdkman-init.sh"`{{execute}}
+On your own computer, type
 
-## Install OpenJDK 11
-`sdk install java 11.0.1-open`{{execute}}
-
-## 
+`ssh -i katacoda.pem root@[[HOST_SUBDOMAIN]]-22-[[KATACODA_HOST]].environments.katacoda.com`{{copy}}

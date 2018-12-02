@@ -20,7 +20,7 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nYour IP address is Be patient while your environment is being built in the background.\u001b[m\r\n"
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\nBe patient while your environment is being built in the background.\r\nOnce you get a prompt, the terminal is ready.\r\n"
   },
   "backend": {
     "imageid": "ubuntu"
