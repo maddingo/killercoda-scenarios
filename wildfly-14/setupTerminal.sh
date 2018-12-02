@@ -1,7 +1,7 @@
 #!/bin/bash
 # SDKman is run in the background, we have to wait for the file
 set +x
-while [ ! -f $HOME/.sdkman/bin/sdkman-init.sh ] ; do
+while [ ! -f $HOME/.env-ready ] ; do
     sleep 3
 done
 source $HOME/.sdkman/bin/sdkman-init.sh
