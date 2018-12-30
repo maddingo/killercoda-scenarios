@@ -1,1 +1,1 @@
-Welcome to WildFly administration.
+Welcome to WildFly 14 administration.
