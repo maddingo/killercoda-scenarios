@@ -20,7 +20,7 @@
   },
   "environment": {
     "showdashboard": true,
-    "dashboards": [{"name": "SSH", "port": 22}, {"name": "Console", "port": 9990}],
+    "dashboards": [{"name": "EC", "port": 8080}, {"name": "Console", "port": 9990}],
     "uilayout": "terminal",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\nBe patient while your environment is being built in the background.\r\nOnce you get a prompt, the terminal is ready.\r\n"
   },
