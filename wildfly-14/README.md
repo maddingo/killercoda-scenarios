@@ -1,2 +1,2 @@
 # Katacoda Wildfly Administration
-This scenario teaces some of the basic administration tasks of WildFly.
+This scenario teaches some of the basic administration tasks of WildFly.
