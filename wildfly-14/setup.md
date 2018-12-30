@@ -7,9 +7,8 @@ Wait until you get a prompt.
 
 ## Download the distribution.
 
-Type the username and password
-`read -p "Download Username: " dl_user`{{execute}}
-`read -p "Download Password: " dl_password`{{execute}}
-`read -p "Download Host:     " dl_host`{{execute}}
+Type the username, password and download host.
+`read -p "Download Username: " dl_user && read -s -p "Download Password: " dl_password && read -p "Download Host:     " dl_host`{{execute}}
 
+Download the distribution.
 `curl -u $dl_user:$dl_password https://${dl_host}/repository/maven-mirror/com/ec/frmw/ec-app-install/ec-app-install-12.1.0-distribution.zip`{{execute}}
