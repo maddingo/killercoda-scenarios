@@ -19,7 +19,7 @@
     },
     "assets": {
         "host01": [
-            {"file": "setupEnv.sh", "target": "~/", "chmod": "+x"}
+            {"file": "setupEnv.sh", "target": "/usr/local/bin/", "chmod": "+x"}
         ]
     }
   },
