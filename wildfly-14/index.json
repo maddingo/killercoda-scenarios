@@ -6,13 +6,11 @@
   "details": {
     "intro": {
       "text": "intro.md",
-      "credits": "",
-      "courseData": "setupEnv.sh"
+      "credits": ""
     },
     "steps": [{
       "title": "Step 1 - Run Command",
-      "text": "setup.md",
-      "code": "setupTerminal.sh"
+      "text": "setup.md"
     }],
     "finish": {
       "text": "finish.md"
