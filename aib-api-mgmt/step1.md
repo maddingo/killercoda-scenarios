@@ -19,5 +19,7 @@ Let's build and run the application the application
 
 See what we get `curl -s http://localhost:8080/now/utc | jq`{{execute T2}}
 
-The Swagger UI is exposed on https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/v3/api-docs
+The contract is exposed on (/v3/api/docs): `curl -s http://localhost:8080/v3/api-docs | jq`{{execute T2}}
+
+The Swagger UI is exposed on https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/swagger-ui.html
 
