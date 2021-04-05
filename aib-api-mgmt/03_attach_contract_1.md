@@ -4,10 +4,11 @@ The code is prepared in branch `02_1_attach_openapi`
 
 # POM
 
-The `api-handling/pom.xml`{{open}} is configured with the surefire plugin (line 53) and\
-the build-helper plugin (line 82).
+The `api-handling/pom.xml`{{open}} is configured with:
+- surefire plugin (line 53) and
+- build-helper plugin (line 82).
 
-There is a test that retrieves the openapi spec in `api-handling/src/test/java/no/maddin/aiphandling/controller/OpenApiGeneratorTest.java`{{open}}.
+There is a test that retrieves the openapi spec in `api-handling/src/test/java/no/maddin/apihandling/controller/OpenApiGeneratorTest.java`{{open}}.
 
 We build the project again `mvn clean install`{{execute T1}}.
 
