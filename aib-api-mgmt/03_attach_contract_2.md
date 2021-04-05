@@ -13,5 +13,6 @@ There is no `OpenApiGeneratorTest.java`.
 
 We build the project again `mvn clean install`{{execute T1}}.
 
-Now the contract is attached to the artifact:\
+Now the contract is attached to the artifact:
+
 `ls ~/.m2/repository/no/maddin/api-handling/1.2.2-SNAPSHOT`{{execute T1}}

@@ -11,5 +11,6 @@ There is a test that retrieves the openapi spec in `api-handling/src/test/java/n
 
 We build the project again `mvn clean install`{{execute T1}}.
 
-Now the contract is attached to the artifact:\
+Now the contract is attached to the artifact:
+
 `ls ~/.m2/repository/no/maddin/api-handling/1.2.1-SNAPSHOT`{{execute T1}}
