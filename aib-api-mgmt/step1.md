@@ -9,5 +9,5 @@ Change to the example code directory:
 ## Current state
 The code example reflects the current state of most Spring Boot-based projects.
 
-Code contains a REST controller `api-handling/src/main/java/no/maddin/apihandling/controller/TimeController.java`{{open}}. 
+Code contains a REST controller `src/main/java/no/maddin/apihandling/controller/TimeController.java`{{open}}. 
 In this simple example it does not have any Swagger annotations.
