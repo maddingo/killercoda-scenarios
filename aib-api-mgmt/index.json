@@ -35,7 +35,11 @@
   },
   "environment": {
     "uilayout": "vscode-terminal-split",
-    "uieditorpath": "api-handling"
+    "uieditorpath": "api-handling",
+    "showdashboard": true,
+    "dashboards": [
+      {"name": "Browser", "port": 8080}
+    ]
   },
   "backend": {
     "imageid": "ubuntu:2004"
