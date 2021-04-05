@@ -11,9 +11,9 @@ We are running JDK 11 on Maven 3.6 `mvn -version`{{execute}}
 ## Current state
 The code example reflects the current state of most Spring Boot-based projects.
 
-Code contains a REST controller <pre class="file" data-filename="src/main/java/no/maddin/apihandling/controller/TimeController.java" data-target="prepend"></pre>
+Code contains a REST controller <pre class="file" data-filename="api-handling/src/main/java/no/maddin/apihandling/controller/TimeController.java" data-target="prepend"></pre>
 
-`src/main/java/no/maddin/apihandling/controller/TimeController.java`{{open}}. 
+`api-handling/src/main/java/no/maddin/apihandling/controller/TimeController.java`{{open}}. 
 In this simple example it does not have any Swagger annotations.
 
 Let's build and run the application the application
