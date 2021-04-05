@@ -6,12 +6,12 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
-        "text": "step1.md"
+        "title": "Preparation",
+        "text": "01_preparation.md"
       },
       {
-        "title": "Step 2",
-        "text": "step2.md"
+        "title": "Current State",
+        "text": "02_current_state.md"
       },
       {
         "title": "Step 3",
@@ -35,11 +35,7 @@
   },
   "environment": {
     "uilayout": "vscode-terminal-split",
-    "uieditorpath": "api-handling",
-    "showdashboard": true,
-    "dashboards": [
-      {"name": "Browser", "port": 8080}
-    ]
+    "uieditorpath": "api-handling"
   },
   "backend": {
     "imageid": "ubuntu:2004"
