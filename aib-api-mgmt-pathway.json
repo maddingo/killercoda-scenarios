@@ -5,7 +5,7 @@
     {
       "pathway_id": "maddingo",
       "id": "aib-01-api-mgmt",
-      "course_id": "aib-01-api-mgmt",
+      "course_id": "aib-api-mgmt/aib-01-api-mgmt",
       "title": "API Management - Deploy contracts",
       "description": "Learn how to deploy the OAS artifact to the Maven repository"
     }
