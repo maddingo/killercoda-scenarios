@@ -3,16 +3,12 @@
   "description": "API Management at Altibox",
   "courses": [
     {
-      "pathway_id": "maddingo",
-      "id": "aib-api-mgmt-01",
-      "course_id": "aib-api-mgmt/01-deploy-contract",
+      "course_id": "01-deploy-contract",
       "title": "API Management - Deploy contracts",
       "description": "Learn how to deploy the OAS artifact to the Maven repository"
     },
     {
-      "pathway_id": "maddingo",
-      "id": "aib-api-mgmt-02",
-      "course_id": "aib-api-mgmt/02-api-manager",
+      "course_id": "02-api-manager",
       "title": "WIP : Deploy to WSO2 API manager",
       "description": "Learn how to deploy an API to the WSO2 API MAnager"
     }
