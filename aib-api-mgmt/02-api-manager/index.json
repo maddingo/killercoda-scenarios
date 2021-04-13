@@ -18,7 +18,7 @@
       },
       "assets": {
         "host01": [
-          { "file": "deployment.toml", "target": "/root/deployment.toml" }
+          { "file": "deployment.toml", "target": "/root/" }
         ]
       }
     },
