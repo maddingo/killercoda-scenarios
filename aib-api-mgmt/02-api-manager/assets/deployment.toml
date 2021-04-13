@@ -110,7 +110,7 @@ https_endpoint = "https://localhost:${https.nio.port}"
 #type = "failover"
 
 [apim.key_manager]
-service_url = "XX_KM_SERVICE_URLXX"
+service_url = "XX_KM_SERVICE_URL_XX"
 #username = "$ref{super_admin.username}"
 #password = "$ref{super_admin.password}"
 #pool.init_idle_capacity = 50

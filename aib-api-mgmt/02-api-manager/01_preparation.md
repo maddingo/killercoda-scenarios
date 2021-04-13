@@ -18,7 +18,7 @@ Set the IdP path:
 `sed -i "s#XX_IDP_SERVER_URL_XX#https://[[HOST_SUBDOMAIN]]-9443-[[KATACODA_HOST]].environments.katacoda.com#g" deployment.toml`{{execute}}
 
 Set Services URL:
-`sed -i "s#XX_KM_SERVICES_URL_XX#https://[[HOST_SUBDOMAIN]]-8243-[[KATACODA_HOST]].environments.katacoda.com/services#g" deployment.toml`{{execute}}
+`sed -i "s#XX_KM_SERVICE_URL_XX#https://[[HOST_SUBDOMAIN]]-8243-[[KATACODA_HOST]].environments.katacoda.com/services#g" deployment.toml`{{execute}}
 
 Set the Devportal path:
 `sed -i "s#XX_DEVPORTAL_URL_XX#https://[[HOST_SUBDOMAIN]]-9443-[[KATACODA_HOST]].environments.katacoda.com/devportal#g" deployment.toml`{{execute}}
