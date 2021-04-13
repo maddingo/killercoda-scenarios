@@ -15,6 +15,11 @@
       },
       "finish": {
         "text": "finish.md"
+      },
+      "assets": {
+        "host01": [
+          { "file": "deployment.toml", "target": "/root/deployment.toml" }
+        ]
       }
     },
     "environment": {

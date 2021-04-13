@@ -1,21 +1,25 @@
-To prepare for this session, run the API manager
-`docker run --rm --name apimgr_temp -d wso2/wso2am:3.2.0`{{execute}}
+We use a prepared configuration file `deployment.toml`{{open}}
 
-Extract to current deployment.toml from the container:
-`docker cp apimgr_temp:/home/wso2carbon/wso2am-3.2.0/repository/conf/deployment.toml .`{{execute}}
+This file can be obtained from the container: 
+`docker run --rm --name apimgr_temp -d wso2/wso2am:3.2.0`
+`docker cp apimgr_temp:/home/wso2carbon/wso2am-3.2.0/repository/conf/deployment.toml .`
+
 
 Set the external hostname in the configuration:
-`sed -i 's/hostname = "localhost"/hostname = "[[HOST_SUBDOMAIN]]-8243-[[KATACODA_HOST]].environments.katacoda.com"/' deployment.toml`{{execute}}
+`sed -i 's#XX_HOSTNAME_XX#[[HOST_SUBDOMAIN]]-9443-[[KATACODA_HOST]].environments.katacoda.com#g' deployment.toml`{{execute}}
 
 Set the external IP address:
-`sed -i "s/node_ip = \"127.0.0.1\"/node_ip = \"$(dig [[HOST_SUBDOMAIN]]-8243-[[KATACODA_HOST]].environments.katacoda.com +short)\"/" deployment.toml`{{execute}}
+`sed -i "s#XX_NODE_IP_XX#$(dig [[HOST_SUBDOMAIN]]-9443-[[KATACODA_HOST]].environments.katacoda.com +short)#g" deployment.toml`{{execute}}
 
-Kill the temporary api manager:
-`docker kill apimgr_temp`{{execute}}
+Set the base path:
+`sed -i "s#XX_BASE_PATH_XX#https://[[HOST_SUBDOMAIN]]-9443-[[KATACODA_HOST]].environments.katacoda.com#g" deployment.toml`{{execute}}
 
-Start the configured API Manager_
+Set the IdP path:
+`sed -i "s#XX_IDP_SERVER_URL_XX#https://[[HOST_SUBDOMAIN]]-9443-[[KATACODA_HOST]].environments.katacoda.com#g" deployment.toml`{{execute}}
 
-`docker run --name apimgr -p 8243:8243 -p 8280:8280 -v $(pwd)/deployment.toml:/home/wso2carbon/wso2am-3.2.0/repository/conf/deployment.toml -d wso2/wso2am:3.2.0`{{execute}}
+Start the configured API Manager:
+
+`docker run --name apimgr -p 8243:8243 -p 8280:8280 -p 9443:9443 -v $(pwd)/deployment.toml:/home/wso2carbon/wso2am-3.2.0/repository/conf/deployment.toml -d wso2/wso2am:3.2.0`{{execute}}
 
 Monitor the progress of the API Manager start:
 `docker logs -f apimgr`{{execute}}
