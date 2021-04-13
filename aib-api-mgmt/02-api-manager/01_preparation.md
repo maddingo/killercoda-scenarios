@@ -2,7 +2,7 @@ To prepare for this session, run the API manager
 `docker run --rm --name apimgr_temp -d wso2/wso2am:3.2.0`{{execute}}
 
 Extract to current deployment.toml from the container:
-`docker cp apimgr:/home/wso2carbon/wso2am-3.2.0/repository/conf/deployment.toml .`{{execute}}
+`docker cp apimgr_temp:/home/wso2carbon/wso2am-3.2.0/repository/conf/deployment.toml .`{{execute}}
 
 Set the external hostname in the configuration:
 `sed -i 's/hostname = "localhost"/hostname = "[[HOST_SUBDOMAIN]]-8243-[[KATACODA_HOST]].environments.katacoda.com"/' deployment.toml`{{execute}}
