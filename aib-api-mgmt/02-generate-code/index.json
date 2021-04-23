@@ -8,6 +8,14 @@
         {
           "title": "Preparation",
           "text": "01_preparation.md"
+        },
+        {
+          "title": "Create a simple Java client",
+          "text": "02_create_simple_client.md"
+        },
+        {
+          "title": "Disect the POM",
+          "text": "03_analyze_pom.md"
         }
       ],
       "intro": {
