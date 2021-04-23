@@ -2,8 +2,8 @@
 apt install -y libarchive-tools
 
 # install zipfs extension
-curl -L https://marketplace.visualstudio.com/_apis/public/gallery/publishers/arcanis/vsextensions/vscode-zipfs/2.3.0/vspackage | bsdtar -xvf - extension
-mv extension /opt/.katacodacode/extensions/zipfs-extension
+curl -L https://marketplace.visualstudio.com/_apis/public/gallery/publishers/slevesque/vsextensions/vscode-zipexplorer/1.13.0/vspackage | bsdtar -xvf - extension
+mv extension /opt/.katacodacode/extensions/zipexplorer-extension
 
 # Modify vscode config
 mkdir -p /opt/.katacodacode/user-data/User/
