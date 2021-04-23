@@ -2,7 +2,7 @@ Now lets disect the POM.
 
 `api-handling/pom.xml`{{open}}
 
-# Copy Dependency (pom.xml:120)
+# Copy Dependency (pom.xml:127)
 
 * Download with `maven-dependency-plugin` goal `copy-dependency`
 * bound to the phase `generate-sources`
@@ -15,7 +15,7 @@ Lets see it in action:
 
 The OAS file is copied to `api-handling/target/dependency/api-handling-openapi.yaml`{{open}}
 
-# Use the OAS to generate a client (pom.xml:157)
+# Use the OAS to generate a client (pom.xml:168)
 
 * generator: `java`
 * library: `native`, i.e. no spring, just plan Java and Jackson
