@@ -7,4 +7,4 @@ We install the contract to the local maven repository so that it is available fo
 
 `cd api-handling`{{execute}}
 
-`mvn install`{{execute}}.
+`mvn install`{{execute}}
