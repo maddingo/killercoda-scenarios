@@ -7,9 +7,9 @@ describe('Preparation', () => {
         cy.contains('Start Scenario');
     });
 
-    it('finds can run commands', () => {
-        cy.terminalType("uname");
+    it('finds the prepared code', () => {
+        cy.terminalType("ls");
 
-        cy.terminalShouldContain('Linux')
+        cy.terminalShouldContain('api-handling')
     });
 })

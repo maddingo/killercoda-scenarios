@@ -11,11 +11,15 @@
         },
         {
           "title": "Create a simple Java client",
-          "text": "02_create_simple_client.md"
+          "text": "02_simple_client.md"
         },
         {
           "title": "Disect the POM",
           "text": "03_analyze_pom.md"
+        },
+        {
+          "title": "Testin the application",
+          "text": "04_simple_test.md"
         }
       ],
       "intro": {
