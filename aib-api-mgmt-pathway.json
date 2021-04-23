@@ -8,7 +8,7 @@
       "description": "Learn how to deploy the OAS artifact to the Maven repository"
     },
     {
-      "course_id": "02-deploy-contract",
+      "course_id": "02-generate-code",
       "title": "API Management - Generate Code",
       "description": "Learn how to generate code from OAS"
     }
