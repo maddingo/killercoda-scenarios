@@ -8,10 +8,9 @@
       "description": "Learn how to deploy the OAS artifact to the Maven repository"
     },
     {
-      "course_id": "02-api-manager",
-      "title": "WIP : Deploy to WSO2 API manager",
-      "description": "Learn how to deploy an API to the WSO2 API MAnager"
+      "course_id": "02-deploy-contract",
+      "title": "API Management - Generate Code",
+      "description": "Learn how to generate code from OAS"
     }
-
   ]
 }

@@ -1,0 +1,31 @@
+{
+    "title": "Altibox API Management 3",
+    "description": "API Management: WSO2 API Manager",
+    "difficulty": "Beginner",
+    "time": "20 minutes",
+    "details": {
+      "steps": [
+        {
+          "title": "Preparation",
+          "text": "01_preparation.md"
+        }
+      ],
+      "intro": {
+        "text": "intro.md"
+      },
+      "finish": {
+        "text": "finish.md"
+      },
+      "assets": {
+        "host01": [
+          { "file": "deployment.toml", "target": "/root/" }
+        ]
+      }
+    },
+    "environment": {
+      "uilayout": "vscode-terminal-split"
+    },
+    "backend": {
+      "imageid": "ubuntu:2004"
+    }
+  }
