@@ -3,5 +3,5 @@ the [Deploy Contract Track](../01-deploy-contract).
 
 We install the contract to the local maven repository so that it is available for the next step.
 
-`cd api-handling && mvn install`{{execute}}
+`cd api-handling && mvn install -q`{{execute}}
 
