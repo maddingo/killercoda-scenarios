@@ -19,7 +19,8 @@
         }
       ],
       "intro": {
-        "text": "intro.md"
+        "text": "intro.md",
+        "courseData": "prepare_env.sh"
       },
       "finish": {
         "text": "finish.md"

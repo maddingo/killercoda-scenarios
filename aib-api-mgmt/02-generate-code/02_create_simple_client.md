@@ -1,4 +1,4 @@
-In this step we are going to create a simple Java client the accesses the server we just built.
+In this step we are going to create a simple Java client that accesses the server we just built.
 
 `git switch 03_depend_on_contract`{{execute}}
 
