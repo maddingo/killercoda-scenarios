@@ -25,5 +25,9 @@ cat > /opt/.katacodacode/user-data/User/settings.json << VSCODEEOF
 }
 VSCODEEOF
 
+cat >$HOME/.mavenrc <<MAVENRC_EOF
+MAVEN_OPTS="--add-opens java.base/java.lang=ALL-UNNAMED"
+MAVENRC_EOF
+
 # clone playground repository
 git clone -b 02_1_attach_openapi https://github.com/maddingo/api-handling.git
