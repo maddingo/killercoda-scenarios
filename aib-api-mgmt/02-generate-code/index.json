@@ -1,6 +1,6 @@
 {
     "title": "Altibox API Management 2",
-    "description": "API Management: WSO2 API Manager",
+    "description": "API Management 2: Generating Code from OAS",
     "difficulty": "Beginner",
     "time": "20 minutes",
     "details": {
@@ -20,6 +20,14 @@
         {
           "title": "Testing the application",
           "text": "04_simple_test.md"
+        },
+        {
+          "title": "Creating a Spring client",
+          "text": "05_spring_client.md"
+        },
+        {
+          "title": "Creating a reactive Spring client",
+          "text": "06_reactive_client.md"
         }
       ],
       "intro": {
