@@ -6,7 +6,7 @@ Now lets have a look at the application:
 
 `api-handling/src/main/java/no/maddin/apiclient/TimeClient.java`{{open}}
 
-Notice that neither the `TimeController` nor `ApiException` class exist in the source or any library.
+Notice that neither the `TimeControllerApi` nor `ApiException` class exist in the source or any library.
 
 Where do they come from?
 

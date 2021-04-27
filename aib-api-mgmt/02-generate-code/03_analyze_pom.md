@@ -2,13 +2,19 @@ Now lets disect the POM.
 
 `api-handling/pom.xml`{{open}}
 
-# Copy Dependency (pom.xml:129)
+# OAS declared as dependency (pom.xml:92)
+The `openapi.yaml` file is declared as a dependency with classifier `openapi` and type `yaml`. 
+We don't want to pull in the transient dependencies. 
+
+The jar file is only used for testing, pom.xml:105.
+
+# Copy Dependency (pom.xml:135)
 
 * Download with `maven-dependency-plugin` goal `copy-dependency`
 * bound to the phase `generate-sources`
 * all dependencies with classifier openapi
 * strip version to avoid updating the version information
-* (son't worry about the proerties goal yet)
+* (don't worry about the properties goal yet)
 
 Lets see it in action:
 `mvn clean generate-sources`{{execute}}
@@ -20,7 +26,7 @@ The OAS file is copied to `api-handling/target/dependency/api-handling-openapi.y
 * generator: `java`
 * library: `native`, i.e. no spring, just plan Java and Jackson
 
-The plugin create a lot of files. Try it by removing all config options after `inputSpec` and run
+The plugin creates a lot of files. Try it by removing all config options after `inputSpec` and run
 `mvn clean compile`{{execute}}
 
 If you want to play with the configuration parameters, have a look at the Documentation:

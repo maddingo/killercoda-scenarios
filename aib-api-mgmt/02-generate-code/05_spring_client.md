@@ -1,6 +1,7 @@
 # Preparation
 
-Switch to the branch with the example code:\
+Switch to the branch with the example code:
+
 `git switch 04_spring_client`{{execute}}
 
 # Change the POM

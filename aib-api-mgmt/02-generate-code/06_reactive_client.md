@@ -1,6 +1,7 @@
 # Preparation
 
-Switch to the branch with the example code:\
+Switch to the branch with the example code:
+
 `git switch 05_reactive_client`{{execute}}
 
 # Change the POM
@@ -8,7 +9,7 @@ Switch to the branch with the example code:\
 From the client generator list at [https://openapi-generator.tech/docs/generators](https://openapi-generator.tech/docs/generators) we
 keep the `java` generator and change the library to `webclient`.
 
-`git --no-pager diff 03_depend_on_contract -- pom.xml`{{execute}}
+`git --no-pager diff 04_spring_client -- pom.xml`{{execute}}
 
 Some more files are generated. The client looks almost the same.
 `git --no-pager diff 03_depend_on_contract -- src/main/java/no/maddin/apiclient/TimeClient.java`{{execute}}
