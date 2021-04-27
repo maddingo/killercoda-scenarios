@@ -11,9 +11,9 @@ In this example, everything is done in the junit test
 `api-handling/src/test/java/no/maddin/apiclient/TimeClientTest.java`{{open}}
 
 The test:
-- starts a new java process (line 37) \
+- starts a new java process (line 37)\
   receives the application JAR from a system property (line 43)
-- runs the junut test `clientTest` (line 65)
+- runs the junit test `clientTest` (line 65)
 - verifies the result (line 72)
 - and stops the java process (line 60)
 

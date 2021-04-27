@@ -2,7 +2,7 @@ Now lets disect the POM.
 
 `api-handling/pom.xml`{{open}}
 
-# Copy Dependency (pom.xml:127)
+# Copy Dependency (pom.xml:129)
 
 * Download with `maven-dependency-plugin` goal `copy-dependency`
 * bound to the phase `generate-sources`
@@ -28,4 +28,4 @@ If you want to play with the configuration parameters, have a look at the Docume
 * [OpenAPI Generator Web site](https://openap-generator.tech)
 * [The documentation for the Maven plugin](https://github.com/OpenAPITools/openapi-generator/tree/master/modules/openapi-generator-maven-plugin)
 * The Maven plugin help: `mvn help:describe -Dplugin=org.openapitools:openapi-generator-maven-plugin -Ddetail`{{execute}}
-* Config help: `mvn compile -Dcodegen.configHelp`
+* Config help: `mvn compile -Dcodegen.configHelp`{{execute}}
