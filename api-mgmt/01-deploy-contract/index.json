@@ -38,6 +38,6 @@
     "uieditorpath": "api-handling"
   },
   "backend": {
-    "imageid": "ubuntu:2004"
+    "imageid": "ubuntu"
   }
 }
