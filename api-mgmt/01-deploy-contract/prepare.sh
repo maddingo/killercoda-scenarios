@@ -10,7 +10,6 @@ install_maven() {
 
 }
 
-apt-get update -y
-apt-get -y -qq --force-yes install openjdk-11-jdk </dev/null
-echo "Installing Maven"
+apt-get -qq update -y
+apt-get -y -qq install openjdk-11-jdk </dev/null
 install_maven 3.8.6
