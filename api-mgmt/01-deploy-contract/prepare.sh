@@ -11,5 +11,5 @@ install_maven() {
 }
 
 apt-get -qq update -y
-apt-get -y -qq install openjdk-11-jdk </dev/null
+apt-get -y -qq install openjdk-11-jdk jq </dev/null
 install_maven 3.8.6
