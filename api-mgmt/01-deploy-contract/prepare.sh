@@ -9,6 +9,8 @@ install_maven() {
     ln -s /opt/apache-maven-${MAVEN_VERSION}/bin/mvn /usr/local/bin/mvn
 
 }
+
 apt-get update -y
 apt-get install -y openjdk-11-jdk
+echo "Installing Maven"
 install_maven 3.8.6
