@@ -1,0 +1,7 @@
+{
+    "items": [
+      { "path": "01-deploy-contract" },
+      { "path": "02-generate-code", "title": "Generate Code" },
+      { "path": "03-api-manager" }
+    ]
+  }
