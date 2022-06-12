@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 
 install_maven() {
     local MAVEN_VERSION=$1
