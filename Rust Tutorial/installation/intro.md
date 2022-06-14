@@ -1,0 +1,1 @@
+This scenario shows the installation of Rust
