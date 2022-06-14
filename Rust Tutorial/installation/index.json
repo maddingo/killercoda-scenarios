@@ -1,0 +1,28 @@
+{
+  "title": "Rust Tutorial",
+  "description": "Rust Tutorial from https://doc.rust-lang.org/book/",
+  "difficulty": "Beginner",
+  "time": "20 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Installation",
+        "text": "installation.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "foreground": "prepare.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "vscode-terminal-split",
+    "uieditorpath": "api-handling"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
