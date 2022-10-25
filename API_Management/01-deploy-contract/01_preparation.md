@@ -1,9 +1,9 @@
-To prepare for the session, clone the example repository starting in branch `01_current_state`
+To prepare for the session, clone the example repository starting in module step00.
 
-`git clone -b 01_current_state https://github.com/maddingo/api-handling.git`{{execute}}
+`git clone https://github.com/maddingo/api-handling.git`{{execute}}
 
 Change to the example code directory:
-`cd api-handling`{{execute}}
+`cd api-handling/step00`{{execute}}
 
-We are running JDK 11 on Maven 3.6 `mvn -version`{{execute}}
+We are running JDK 17 on Maven 3.8 `mvn -version`{{execute}}
 

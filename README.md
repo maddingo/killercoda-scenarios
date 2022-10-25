@@ -1,6 +1,6 @@
 # Interactive Scenarios
 
-Unfortunately, Katacode is being shut down, and O'Reilly is including it in their Learning Plattform, making it more complicated to publish content.
+Unfortunately, Katacode is being shut down, and O'Reilly is including it in their Learning Platform, making it more complicated to publish content.
 
 Visit https://www.killercoda.com/maddingo to view the profile and interactive scenarios
 
