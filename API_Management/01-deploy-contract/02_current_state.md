@@ -6,11 +6,11 @@ Code contains a REST controller
 In this simple example it does not have any Swagger annotations.
 
 Let's build and run the application
-`(mvn install spring-boot:run -pl step00 & `{{execute}}
+`mvn install && mvn spring-boot:run -pl step00 & `{{execute}}
 
-See what we get `curl -s http://localhost:8080/now/utc | jq`{{copy}}
+Make sure it works: [Swagger UI]({{TRAFFIC_HOST1_8080}}/now/utc)
 
-The contract is exposed on (/v3/api/docs): `curl -s http://localhost:8080/v3/api-docs | jq`{{copy}}
+The contract is exposed on [/v3/api/docs]({{TRAFFIC_HOST1_8080}}/v3/api/docs)
 
 The Swagger UI is exposed on [Swagger UI]({{TRAFFIC_HOST1_8080}}/swagger-ui.html)
 
