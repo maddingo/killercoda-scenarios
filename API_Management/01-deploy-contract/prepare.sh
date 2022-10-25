@@ -15,4 +15,4 @@ tar xf /tmp/apache-maven-${MAVEN_VERSION}-bin.tar.gz -C /opt
 ln -s /opt/apache-maven-${MAVEN_VERSION} /opt/maven
 ln -s /opt/apache-maven-${MAVEN_VERSION}/bin/mvn /usr/local/bin/mvn
 
-echo Done.
+echo DONE >/tmp/DONE
