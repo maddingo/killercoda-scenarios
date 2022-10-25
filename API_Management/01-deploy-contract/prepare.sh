@@ -2,6 +2,7 @@
 MAVEN_VERSION=3.8.6
 
 set -e
+set +x
 apt-get -qq update -y
 apt-get install -y -qq openjdk-17-jdk openjdk-17-jre jq </dev/null >/dev/null
 
