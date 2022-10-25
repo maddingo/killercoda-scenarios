@@ -28,7 +28,8 @@
     ],
     "intro": {
       "text": "intro.md",
-      "background": "prepare.sh"
+      "background": "prepare.sh",
+      "foreground": "prepare-finished.sh"
     },
     "finish": {
       "text": "finish.md"
