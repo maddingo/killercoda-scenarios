@@ -5,8 +5,8 @@ Code contains a REST controller
 
 In this simple example it does not have any Swagger annotations.
 
-Let's build and run the application the application
-`mvn install spring-boot:run`{{execute}}
+Let's build and run the application
+`(mvn install spring-boot:run -pl step00 & `{{execute}}
 
 See what we get `curl -s http://localhost:8080/now/utc | jq`{{copy}}
 

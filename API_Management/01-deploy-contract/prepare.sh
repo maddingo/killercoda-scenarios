@@ -2,7 +2,9 @@
 MAVEN_VERSION=3.8.6
 
 set -e
-set +x
+
+echo "PS1='\h \W \$ '" >> ~/.bashrc
+
 apt-get -qq update -y
 apt-get install -y -qq openjdk-17-jdk openjdk-17-jre jq </dev/null >/dev/null
 
