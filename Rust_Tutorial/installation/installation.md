@@ -13,7 +13,7 @@ If not there are two options. Actually, you could also download or build it from
 Rustup allows you to stay more up-to-date than using you distribution's package manager.
 
 - `sudo snap install rustup --classic`{{execute}}
-- `rustup toolchain install default`{{execute}}
+- `rustup toolchain install stable`{{execute}}
 
 
 Now check the version with `rustc --version`{{execute}}
