@@ -12,8 +12,8 @@ If not there are two options. Actually, you could also download or build it from
 # Using `rustup`
 Rustup allows you to stay more up-to-date than using you distribution's package manager.
 
-- `sudo snap install rustup --classic`
-- `rustup toolchain install default`
+- `sudo snap install rustup --classic`{{execute}}
+- `rustup toolchain install default`{{execute}}
 
 
-Now check the version with `rustc --version`
+Now check the version with `rustc --version`{{execute}}
