@@ -8,10 +8,15 @@
       {
         "title": "The forgeops Repository",
         "text": "forgeops-repo.md"
+      },
+      {
+        "title": "Installation of 3rd party tools",
+        "text": "third-party-repo.md"
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "foreground": "prepare.sh"
     },
     "finish": {
       "text": "finish.md"
