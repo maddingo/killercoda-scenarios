@@ -1,12 +1,12 @@
 The code example reflects the current state of most Spring Boot-based projects.
 
 Code contains a REST controller 
-`api-handling/src/main/java/no/maddin/apihandling/controller/TimeController.java`{{open}}. 
+`api-handling/step00/src/main/java/no/maddin/apihandling/controller/TimeController.java`{{open}}. 
 
 In this simple example it does not have any Swagger annotations.
 
 Let's build and run the application
-`mvn install -DskipTests && mvn spring-boot:run -pl step00 & `{{execute}}
+`mvn install -DskipTests -pl step00 && mvn spring-boot:start -pl step00 & `{{execute}}
 
 Make sure it works: [REST endpoint]({{TRAFFIC_HOST1_8080}}/now/utc)
 
