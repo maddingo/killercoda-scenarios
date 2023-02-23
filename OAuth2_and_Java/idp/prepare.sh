@@ -1,5 +1,5 @@
 #!/
-cat >.bashrc<<EOF 
+cat >>.bashrc<<EOF 
 
 PATH=$PATH:$HOME/bin
 export PATH
