@@ -1,0 +1,1 @@
+This steps show how to set up end configure ForgeRock as your OAuth2 Identity Provider.
