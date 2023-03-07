@@ -1,10 +1,9 @@
-# Interactive Katacoda Scenarios
+# Interactive Scenarios
 
-[![](http://shields.katacoda.com/katacoda/maddingo/count.svg)](https://www.katacoda.com/maddingo "Get your profile on Katacoda.com")
+Unfortunately, Katacode is being shut down, and O'Reilly is including it in their Learning Platform, making it more complicated to publish content.
 
-Visit https://www.katacoda.com/maddingo to view the profile and interactive scenarios
+Visit https://www.killercoda.com/maddingo to view the profile and interactive scenarios
 
 ### Writing Scenarios
-Visit https://www.katacoda.com/docs to learn more about creating Katacoda scenarios
+Visit https://killercoda.com/creators to learn more about creating scenarios
 
-For examples, visit https://github.com/katacoda/scenario-example

@@ -1,0 +1,32 @@
+{
+  "title": "OAuth2 Identity Provider using ForgeRock",
+  "description": "See https://backstage.forgerock.com/docs/forgeops/7.1/index.html",
+  "difficulty": "Advanced",
+  "time": "30 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "The forgeops Repository",
+        "text": "forgeops-repo.md"
+      },
+      {
+        "title": "Installation of 3rd party tools",
+        "text": "third-party-tools.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "foreground": "prepare.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "vscode-terminal-split",
+    "uieditorpath": "api-handling"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

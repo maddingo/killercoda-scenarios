@@ -1,5 +1,5 @@
 {
-  "title": "Altibox API Management 1",
+  "title": "API Management 1",
   "description": "API Management: Publishing openapi specs",
   "difficulty": "Beginner",
   "time": "20 minutes",
@@ -27,7 +27,9 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "background": "prepare.sh",
+      "foreground": "prepare-finished.sh"
     },
     "finish": {
       "text": "finish.md"
@@ -38,6 +40,6 @@
     "uieditorpath": "api-handling"
   },
   "backend": {
-    "imageid": "ubuntu:2004"
+    "imageid": "ubuntu"
   }
 }

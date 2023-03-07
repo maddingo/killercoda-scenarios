@@ -1,0 +1,5 @@
+{
+    "items": [
+      { "path": "idp", "title": "OAuth2 Identity Provider" }
+    ]
+  }

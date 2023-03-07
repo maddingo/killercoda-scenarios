@@ -1,0 +1,7 @@
+{
+    "items": [
+      { "path": "01-deploy-contract", "title": "Deploy OAS contract" },
+      { "path": "02-generate-code", "title": "Generate Code" },
+      { "path": "03-api-manager", "title": "Deploy API to WSO2 API-M" }
+    ]
+  }
