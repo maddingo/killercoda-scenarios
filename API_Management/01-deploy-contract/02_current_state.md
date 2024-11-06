@@ -6,7 +6,7 @@ Code contains a REST controller
 In this simple example it does not have any Swagger annotations.
 
 Let's build and run the application
-`mvn install -DskipTests -pl step00 && mvn spring-boot:start -pl step00 & `{{execute}}
+`mvn install -DskipTests -pl test-tools step00 && mvn spring-boot:start -pl step00 -am`{{execute}}
 
 Make sure it works: [REST endpoint]({{TRAFFIC_HOST1_8080}}/now/utc)
 
