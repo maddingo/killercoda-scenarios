@@ -5,6 +5,8 @@ set -e
 
 echo "PS1='\h \W \$ '" >> ~/.bashrc
 
+sudo bash -c "echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections"
+
 sudo apt-get -qq update -y
 sudo apt-get install -y -qq openjdk-17-jdk openjdk-17-jre jq </dev/null >/dev/null
 
