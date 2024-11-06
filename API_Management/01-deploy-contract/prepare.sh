@@ -1,15 +1,15 @@
 #!/bin/bash
-MAVEN_VERSION=3.8.6
+MAVEN_VERSION=3.9.9
 
 set -e
 
 echo "PS1='\h \W \$ '" >> ~/.bashrc
 
-echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
+#echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
 export DEBIAN_FRONTEND=noninteractive
 
 apt-get -qq update -y
-apt-get install -y -qq openjdk-17-jdk openjdk-17-jre jq </dev/null >/dev/null
+apt-get install -y -qq openjdk-17-jdk openjdk-17-jre jq
 
 # Installing Maven
 wget -q https://www.apache.org/dist/maven/maven-3/${MAVEN_VERSION}/binaries/apache-maven-${MAVEN_VERSION}-bin.tar.gz -P /tmp
