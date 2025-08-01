@@ -1,11 +1,20 @@
-Wait until the environment is set up. In Tab 1, a message `Welcome`{{}} should appear.
+# First we set up our environment!
 
-To prepare for the session, clone the example repository starting in module step00.
+The image we are using might be missing important updates.
+`apt update && apt upgrade -y`{{execute}}
 
-`git clone https://github.com/maddingo/api-handling.git`{{execute}}
+# Installation of tools
+We use [sdkman](https://sdkman.io), since Ubuntu has outdated versions in their package repository.
 
-Change to the example code directory:
-`cd api-handling`{{execute}}
+`curl -s "https://get.sdkman.io" | bash`
 
-We are running JDK 17 on Maven 3.8 `mvn -version`{{execute}}
+And activeate the tool for the current shell
+`source "$HOME/.sdkman/bin/askman-init.sh"`
 
+Check that SDKman is properly installed.
+`sdk version`
+
+Now lets install java 21: `sdk install java` and Maven `sdk install maven`
+
+Check that it was properly installed:
+`mvn --version`
