@@ -1,7 +1,8 @@
 # First we set up our environment!
 
 The image we are using might be missing important updates.
-`apt update && apt upgrade -y`{{execute}}
+
+`apt update && apt upgrade -y && apt install zip`{{execute}}
 
 # Installation of tools
 We use [sdkman](https://sdkman.io), since Ubuntu has outdated versions in their package repository.
@@ -11,15 +12,15 @@ We use [sdkman](https://sdkman.io), since Ubuntu has outdated versions in their 
 and 
 activeate the tool for the current shell
 
-`source "$HOME/.sdkman/bin/askman-init.sh"`{{execute}}
+`source "$HOME/.sdkman/bin/sdkman-init.sh"`{{execute}}
 
 Check that SDKman is properly installed
 
-`sdk version`
+`sdk version`{{execute}}
 
 Now lets install java 21: 
 
-`sdk install java` {{execute}} 
+`sdk install java`{{execute}} 
 
 and Maven 
 
@@ -28,3 +29,7 @@ and Maven
 Check that it was properly installed:
 
 `mvn --version`{{execute}}
+
+Fianlly, get teh sample code for this scenario
+
+``git clone https://github.com/maddingo/api-handling.git`{{execute}}

@@ -6,4 +6,4 @@ There are two alternatives:
   - depends on test phase running
 3. With springdoc plugin
   - Easy to set up, 
-  - but uses hard-coded port (there are ways got around this)
+  - but uses hard-coded port (there are ways get around this)
