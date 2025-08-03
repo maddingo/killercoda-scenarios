@@ -1,18 +1,22 @@
 # Preparation
-The code is prepared in branch `02_2_attach_openapi`
-`git reset --hard && git switch 02_2_attach_openapi`{{execute T1 interrupt}}
+The code is prepared in module `step02`{{}}.
 
-# POM
+# POM - Generate OAS with Spring Boot Doc
 
-The `api-handling/pom.xml`{{open}} is configured to 
-- start the application (line 72) and
-- attach the artifact (line 96)
-- and stop the application (line 78).
+This code is similar to the one in step01, but requires more configuration to make it work. 
 
-There is no `OpenApiGeneratorTest.java`.
+1. Spring needs to be started on a random port, 
+2. the random port has to be pre-allocated in Maven, 
+3. THe port has to be passed to the SpringDoc Maven plugin.
 
-We build the project again `mvn clean install`{{execute T1}}.
+In both step01 and step02, the contract is generated:
 
-Now the contract is attached to the artifact:
+```
+ls ~/.m2/repository/no/maddin/api-handling/step01/1.0.0-SNAPSHOT
+ls ~/.m2/repository/no/maddin/api-handling/step02/1.0.0-SNAPSHOT
+```{{execute}}
 
-`ls ~/.m2/repository/no/maddin/api-handling/1.2.2-SNAPSHOT`{{execute T1}}
+The OAS files should be the same, except for the server URL.
+
+`diff ~/.m2/repository/no/maddin/api-handling/step01/1.0.0-SNAPSHOT/step01-1.0.0-SNAPSHOT-openapi.yaml ~/.m2/repository/no/maddin/api-handling/step02/1.0.0-SNAPSHOT/step02-1.0.0-SNAPSHOT-openapi.yam
+

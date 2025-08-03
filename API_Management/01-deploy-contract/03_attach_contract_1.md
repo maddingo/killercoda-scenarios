@@ -1,18 +1,21 @@
 # Preparation
-The code is prepared in branch `02_1_attach_openapi`{{}}
+The code is prepared in module `step01`{{}}
 
-`git reset --hard && git switch 02_1_attach_openapi`{{execute T1 interrupt}}
+# POM - Generate OAS in Test
 
-# POM
+Head back to the "Editor" tab and open the file `api-handling/step01/pom.xml`{{}}
+The project is configured with `build-helper-plugin`{{}} that attaches a file `target/openapi.yaml`{{}} (line 73).
 
-The `api-handling/pom.xml`{{open}} is configured with:
-- surefire plugin (line 53) and
-- build-helper plugin (line 82).
+Where does this file come from?
 
-There is a test that retrieves the openapi spec in `api-handling/src/test/java/no/maddin/apihandling/controller/OpenApiGeneratorTest.java`{{open}}.
+It is generated in test `api-handling/step01/src/test/java/no/maddin/apihandling/step01/OpenApiControllerTest.java`{{}}.
 
-We build the project again `mvn clean install`{{execute T1}}.
+Open the file and inspect it. You will find, that this test creates the openapi.yaml.
 
-Now the contract is attached to the artifact:
+Build the project again `mvn clean install -pl step01`{{execute T1}}.
+
+Now the contract is attached to the artifact. Inspect the local Maven cache with
 
 `ls ~/.m2/repository/no/maddin/api-handling/1.2.1-SNAPSHOT`{{execute T1}}
+and you will notice
+
