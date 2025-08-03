@@ -1,6 +1,6 @@
 {
     "items": [
-        { "path": "API_Management", "title": "API Design"},
+        { "path": "API_Management", "title": "Using Open API Spec"},
         { "path": "OAuth2_and_Java", "title": "OAuth2 and Java"}
     ]
 }
