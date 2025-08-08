@@ -23,6 +23,6 @@ Check that it was properly installed:
 
 `mvn --version`{{execute}}
 
-Fianlly, get the sample code for this scenario
+Finally, get the sample code for this scenario
 
 `git clone https://github.com/maddingo/api-handling.git`{{execute}}
