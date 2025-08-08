@@ -4,6 +4,10 @@
   "difficulty": "Beginner",
   "time": "20 minutes",
   "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "prepare.sh"
+    },
     "steps": [
       {
         "title": "Preparation",
@@ -26,10 +30,6 @@
         "text": "03_attach_contract_2.md"
       }
     ],
-    "intro": {
-      "text": "intro.md",
-      "foreground": "prepare.sh"
-    },
     "finish": {
       "text": "finish.md"
     }

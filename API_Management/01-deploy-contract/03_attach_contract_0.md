@@ -1,6 +1,6 @@
-Attaching the contract involves retrieving the Open API Spec (OAS) from the running server during the Maven build cycle and attaching it to the artifact, so that is can be installed as a project artifact.
+Attaching the contract involves retrieving the Open API Spec (OAS) from the running server during the Maven build cycle and attaching it to the artifact, so that it can be installed as a project artifact and used by other projects.
 
-There are two alternatives:
+In this scenario we look at two alternatives:
 1. With SpringTest and build helper
   - More flexible but slightly more complex to set up
   - depends on test phase running

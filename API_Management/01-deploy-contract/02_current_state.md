@@ -28,8 +28,12 @@ At this stage, the contract is not deployed to the Maven repository, thus other 
 
 Check the content of the local repository to see what artifacts are available:
 
-`ls ~/.m2/repository/no/maddin/api-handling/step00/1.0.0-SNAPSHOT/`{{execute}}
+`ls -1 ~/.m2/repository/no/maddin/api-handling/step00/1.0.0-SNAPSHOT/`{{execute}}
 
 You will notice that there is a jar file with the application, a POM and some metadata files.
 
-Stop the application with `mvn spring-boot:stop`{{execute}}
+You can inspect the jar file with `jar tf ~/.m2/repository/no/maddin/api-handling/step00/1.0.0-SNAPSHOT/step00-1.0.0-SNAPSHOT.jar`{{execute}}
+
+Before we continue to the next step, lets stop the running server with
+
+`mvn spring-boot:stop -pl step00`{{execute}}
