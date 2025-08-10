@@ -1,9 +1,8 @@
 What you will learn?
-- Building a simple Spring Boot Application exposing a simple REST API
-- API contract generation
-- Deploying the Open Api Spec to an external repository like Maven Central
+- Building a .NET application exposing a simple REST API
+- API contract generation as a json file
 
 Tools: 
-- Java, Spring Boot, Maven
+- .NET 8.0
 - REST
 - Open API Spec

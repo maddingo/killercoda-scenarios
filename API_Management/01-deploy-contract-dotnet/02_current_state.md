@@ -10,7 +10,9 @@ Let's build and run the application
 ```
 cd api-handling/step00
 dotnet build
-ASPNETCORE_URLS=http://localhost:8080 ASPNETCORE_ENVIRONMENT=Development bin/Debug/net8.0/step00 
+export ASPNETCORE_URLS=http://localhost:8080 
+export ASPNETCORE_ENVIRONMENT=Development 
+bin/Debug/net8.0/step00 
 ```{{execute}}
 
 Make sure it works: [REST endpoint]({{TRAFFIC_HOST1_8080}}/now/utc)
@@ -27,7 +29,7 @@ At this stage, the contract is not generated as a json file.
 
 Check the content of the `bin`{{}} directory.
 
-`ls -1 bin/Debug/net8.0/step00`{{execute}}
+`ls -1 bin/Debug/net8.0/`{{execute}}
 
 Stop the running appliction with `Ctrl+C`{{}}
 
