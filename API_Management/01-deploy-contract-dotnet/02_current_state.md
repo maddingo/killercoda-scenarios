@@ -13,11 +13,11 @@ dotnet build
 ASPNETCORE_URLS=http://localhost:8080 ASPNETCORE_ENVIRONMENT=Development bin/Debug/net8.0/step00 
 ```{{execute}}
 
-Make sure it works: [REST endpoint]({{TRAFFIC_HOST1_8080}}/Time/now/utc)
+Make sure it works: [REST endpoint]({{TRAFFIC_HOST1_8080}}/now/utc)
 
-`curl -s http://localhost:8080/Time/now/utc | jq`{{execute}}
+`curl -s http://localhost:8080/now/utc | jq`{{execute}}
 
-The Open API Specification, aka the contract, is exposed on [/v3/api-docs]({{TRAFFIC_HOST1_8080}}/v3/api-docs).
+The Open API Specification, aka the contract, is exposed on [/swagger/v1/swagger.json]({{TRAFFIC_HOST1_8080}}/swagger/v1/swagger.json).
 
 `curl -s http://localhost:8080/swagger/v1/swagger.json | jq `{{execute}}
 
