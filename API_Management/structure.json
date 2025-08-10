@@ -1,6 +1,7 @@
 {
     "items": [
-      { "path": "01-deploy-contract", "title": "Deploy OAS contract" },
+      { "path": "01-deploy-contract-java", "title": "Deploy OAS contract (Java)" },
+      { "path": "01-deploy-contract-dotnet", "title": "Deploy OAS contract (.NET)" },
       { "path": "02-generate-code", "title": "Generate Code" }
     ]
   }

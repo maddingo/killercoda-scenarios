@@ -1,0 +1,44 @@
+{
+  "title": "API Management 1",
+  "description": "API Management 1: Publishing Open API Specs",
+  "difficulty": "Beginner",
+  "time": "20 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "prepare.sh"
+    },
+    "steps": [
+      {
+        "title": "Preparation",
+        "text": "01_preparation.md"
+      },
+      {
+        "title": "Current State",
+        "text": "02_current_state.md"
+      },
+      {
+        "title": "Attach Contract",
+        "text": "03_attach_contract_0.md"
+      },
+      {
+        "title": "Attach Contract - Alt. 1",
+        "text": "03_attach_contract_1.md"
+      },
+      {
+        "title": "Attach Contract - Alt. 2",
+        "text": "03_attach_contract_2.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "vscode-terminal-split",
+    "uieditorpath": "api-handling"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
