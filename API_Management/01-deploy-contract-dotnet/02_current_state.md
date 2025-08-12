@@ -10,7 +10,7 @@ Let's build and run the application
 ```
 cd api-handling/step00
 dotnet build
-export ASPNETCORE_URLS=http://localhost:8080 
+export ASPNETCORE_URLS=http://0.0.0.0:8080 
 export ASPNETCORE_ENVIRONMENT=Development 
 bin/Debug/net8.0/step00 
 ```{{execute}}
