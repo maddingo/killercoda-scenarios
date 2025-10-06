@@ -1,7 +1,32 @@
-To prepare for the session, clone the example repository starting in branch `02_1_attach_openapi`. This is where we left off in 
-the [Deploy Contract Track](/altibox/courses/aib-api-mgmt/01-deploy-contract).
+# Installation of tools
+We use [sdkman](https://sdkman.io), since Ubuntu has outdated versions in their package repository.
 
-We install the contract to the local maven repository so that it is available for the next step.
+`curl -s "https://get.sdkman.io" | bash`{{execute}}
 
-`cd api-handling && mvn install`{{execute}}
+and activate the tool for the current shell
+
+`source "$HOME/.sdkman/bin/sdkman-init.sh"`{{execute}}
+
+Check that SDKman is properly installed
+
+`sdk version`{{execute}}
+
+Now lets install the latest LTS JDK:
+
+`sdk install java`{{execute}} 
+
+and Maven 
+
+`sdk install maven`{{execute}}
+
+Check that it was properly installed:
+
+`mvn --version`{{execute}}
+
+Finally, get the sample code for this scenario
+
+`git clone https://github.com/maddingo/api-handling.git`{{execute}}
+
+Now look at the code in `api-handling/step03`.
+`cd api-handling/step03`{{execute}}
 
