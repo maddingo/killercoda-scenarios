@@ -1,6 +1,9 @@
 This session demonstrates how we generate code from a OAS file. 
 
-This is a follow up on the [Deploy Contract Track](01-deploy-contract/).
+This is a follow up on the .
 
-There are a couple of files being copied in the backgrund. If the first command fails, it means the preparation is not finished.
-
+It uses the same technologies as the [Deploy Contract Track](01-deploy-contract-java/) track:
+- Java
+- SDKMan
+- Maven
+- [Open API Processor](https://github.com/openapi-processor)

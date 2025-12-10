@@ -4,6 +4,10 @@
     "difficulty": "Beginner",
     "time": "20 minutes",
     "details": {
+      "intro": {
+        "text": "intro.md",
+        "background": "prepare.sh"
+      },
       "steps": [
         {
           "title": "Preparation",
@@ -30,10 +34,6 @@
           "text": "06_reactive_client.md"
         }
       ],
-      "intro": {
-        "text": "intro.md",
-        "courseData": "prepare_env.sh"
-      },
       "finish": {
         "text": "finish.md"
       }

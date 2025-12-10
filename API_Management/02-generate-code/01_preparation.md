@@ -28,5 +28,11 @@ Finally, get the sample code for this scenario
 `git clone https://github.com/maddingo/api-handling.git`{{execute}}
 
 Now look at the code in `api-handling/step03`.
-`cd api-handling/step03`{{execute}}
+
+`cd api-handling`{{execute}}
+
+Rebuild the project step02 and ints dependencies:
+
+`mvn install -pl step02 -am`{{execute}}
+
 
