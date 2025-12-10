@@ -3,8 +3,9 @@ The code is prepared in module `step01`{{}}
 
 # POM - Generate OAS in Test
 
-Head back to the "Editor" tab and open the file `api-handling/step01/pom.xml`{{}}
-The project is configured with `build-helper-maven-plugin` that attaches a file `target/openapi.yaml`{{}} (line 73).
+Head back to the "Editor" tab and open the file `api-handling/step01/pom.xml`{{}}.
+
+The project is configured with `build-helper-maven-plugin` that attaches a file `target/openapi.yaml`{{}} (line 68).
 
 Where does this file come from?
 

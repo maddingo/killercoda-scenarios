@@ -34,6 +34,5 @@ You will notice that there is a jar file with the application, a POM and some me
 
 You can inspect the jar file with `jar tf ~/.m2/repository/no/maddin/api-handling/step00/1.0.0-SNAPSHOT/step00-1.0.0-SNAPSHOT.jar`{{execute}}
 
-Before we continue to the next step, lets stop the running server with
+Before we continue to the next step, lets stop the running server with `Ctrl+C`{{}} in the terminal where you started it.
 
-`mvn spring-boot:stop -pl step00`{{execute}}

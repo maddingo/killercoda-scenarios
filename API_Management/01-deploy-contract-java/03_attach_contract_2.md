@@ -17,7 +17,7 @@ Build the project:
 
 In both step01 and step02, the contract is generated:
 
-``{{execute}}
+`find ~/.m2/repository -name '*-openapi.yaml'`{{execute}}
 
 The OAS files should be the same, except for the server URL.
 
@@ -33,4 +33,4 @@ And copied to your local path
 
 The copied OAS is now available in the `out/`{{}} directory.
 
-Check the content with `cat $(pwd)/out/step01-openapi.yaml | jq`{{execute}}
+Check the content with `cat $(pwd)/out/step01-openapi.yaml | yq`{{execute}}

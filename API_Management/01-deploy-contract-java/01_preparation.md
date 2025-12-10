@@ -13,7 +13,7 @@ Check that SDKman is properly installed
 
 Now lets install the latest LTS JDK:
 
-`sdk install java`{{execute}} 
+`sdk install java `{{execute}} 
 
 and Maven 
 
