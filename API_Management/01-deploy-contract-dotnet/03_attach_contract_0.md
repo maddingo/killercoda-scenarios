@@ -1,9 +1,14 @@
-Attaching the contract involves retrieving the Open API Spec (OAS) from the running server during the Maven build cycle and attaching it to the artifact, so that it can be installed as a project artifact and used by other projects.
+Creating the Open API Specification (OAS) file involves modifying the project file `step01.csproj`{{}}.
 
-In this scenario we look at two alternatives:
-1. With SpringTest and build helper
-  - More flexible but slightly more complex to set up
-  - depends on test phase running
-2. With springdoc plugin
-  - Easy to set up, 
-  - but uses hard-coded port (there are ways get around this), which is impractical on a build server with potially multiple runs in parallel.
+`diff ~/api-handling/step0{0,1}/step*.csproj`{{execute}}
+
+```
+cd ~/api-handling/step01
+dotnet build
+```{{execute}}
+
+After that, the OAS file is located in ~/api-handling/step01/swagger.json.
+
+`cat ~/api-handling/step01/swagger.json | jq`{{execute}}
+
+This file can then be uploded to a repository, to make it accessible to other projects.

@@ -17,6 +17,8 @@ bin/Debug/net8.0/step00
 
 Make sure it works: [REST endpoint]({{TRAFFIC_HOST1_8080}}/now/utc)
 
+In a new Terminal run
+
 `curl -s http://localhost:8080/now/utc | jq`{{execute}}
 
 The Open API Specification, aka the contract, is exposed on [/swagger/v1/swagger.json]({{TRAFFIC_HOST1_8080}}/swagger/v1/swagger.json).
@@ -29,7 +31,7 @@ At this stage, the contract is not generated as a json file.
 
 Check the content of the `bin`{{}} directory.
 
-`ls -1 bin/Debug/net8.0/`{{execute}}
+`ls -1 ~/api-handling/step00/bin/Debug/net8.0/`{{execute}}
 
 Stop the running appliction with `Ctrl+C`{{}}
 
