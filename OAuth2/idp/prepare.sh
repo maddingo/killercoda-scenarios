@@ -1,4 +1,5 @@
-#!/
+#!/bin/bash
+
 cat >>.bashrc<<EOF 
 
 PATH=$PATH:$HOME/bin
