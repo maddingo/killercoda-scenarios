@@ -8,6 +8,10 @@
       {
         "title": "Prepare the environment",
         "text": "prepare-env.md"
+      },
+      {
+        "title": "Run the IdP",
+        "text": "run-idp.md"
       }
     ],
     "intro": {
