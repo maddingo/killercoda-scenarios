@@ -21,7 +21,9 @@ In a new Terminal run
 
 `curl -s http://localhost:8080/now/utc | jq`{{execute}}
 
-The Open API Specification, aka the contract, is exposed on [/swagger/v1/swagger.json]({{TRAFFIC_HOST1_8080}}/swagger/v1/swagger.json).
+The Open API Specification, aka the contract, is exposed on [/swagger/v1/swagger.json]({{TRAFFIC_HOST1_8080}}/swagger/v1/swagger.json) or as 
+a YAML file on [/swagger/v1/swagger.yaml]({{TRAFFIC_HOST1_8080}}/swagger/v1/swagger.yaml)
+
 
 `curl -s http://localhost:8080/swagger/v1/swagger.json | jq `{{execute}}
 
@@ -29,7 +31,7 @@ There is also a fancy UI for the contract on [Swagger UI]({{TRAFFIC_HOST1_8080}}
 
 At this stage, the contract is not generated as a json file.
 
-Check the content of the `bin`{{}} directory.
+Check the content of the binary path.
 
 `ls -1 ~/api-handling/step00/bin/Debug/net8.0/`{{execute}}
 
