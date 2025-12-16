@@ -2,7 +2,7 @@
 
 OAuth 2 is a authorization Framework and together with Open ID Connect (OIDC) is used to secure web applications, published by IETF.
 
-The current version is OAuth 2.0 ([RFC6749](https://www.rfc-editor.org/rfc/rfc6749), [RFC6750](https://www.rfc-editor.org/rfc/rfc6750), [RFC6819](https://www.rfc-editor.org/rfc/rfc6819)) with [OAuth](https://datatracker.ietf.org/doc/draft-ietf-oauth-v2-1/) 2.1 in draft.
+The current version is OAuth 2.0 ([RFC6749](https://www.rfc-editor.org/rfc/rfc6749), [RFC6750](https://www.rfc-editor.org/rfc/rfc6750), [RFC6819](https://www.rfc-editor.org/rfc/rfc6819)) with [OAuth 2.1](https://datatracker.ietf.org/doc/draft-ietf-oauth-v2-1/) in draft.
 
 Best PRactices for OAuth 2 were published under [RFC9700](https://www.ietf.org/rfc/rfc9700.html).
 

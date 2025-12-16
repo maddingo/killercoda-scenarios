@@ -9,4 +9,6 @@ EOF
 
 mkdir bin
 
+curl -s "https://get.sdkman.io" | bash
+
 echo "Preparation Finished"
